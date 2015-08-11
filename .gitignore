@@ -1,3 +1,6 @@
+#emacs save copies
+*~
+#perl stuff by github
 /blib/
 /.build/
 _build/
