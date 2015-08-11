@@ -1,0 +1,17 @@
+* Linux_hacks
+small scripts and commands to make life easier
+** watch_my_processes.sh
+A script to log CPU and memory usage of processes.
+The script uses 'ps' to find processes and writes the cpu
+and memory usage of the most "heavy" commands to a file.
+ATTENTION: The script uses an infite loop while logging. It has
+to be aborted manually.
+ 
+Default settings:
+#+BEGIN_SRC sh
+USER=`whoami`
+INTERVAL="30m"
+LINES="10"
+OUTPUT='load.log'
+#+END_SRC
+
